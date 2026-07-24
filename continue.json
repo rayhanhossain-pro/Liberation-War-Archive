@@ -1,0 +1,173 @@
+{
+  "project": {
+    "name": "Liberation War Archive",
+    "type": "Educational Archive Website",
+    "developer_level": "Beginner",
+    "goal": "Create a complete responsive Liberation War Archive website using HTML, Bootstrap 5, Raw CSS, and Vanilla JavaScript."
+  },
+
+  "tech_stack": {
+    "html": true,
+    "css": {
+      "bootstrap": "5.3.x",
+      "raw_css": true
+    },
+    "javascript": {
+      "vanilla": true,
+      "jquery": false
+    }
+  },
+
+  "coding_rules": {
+    "beginner_friendly": true,
+    "copy_paste_ready": true,
+    "responsive": true,
+    "well_commented": true,
+    "semantic_html": true,
+    "no_framework_except_bootstrap": true,
+    "separate_files": true
+  },
+
+  "folder_structure": {
+    "root": [
+      "index.html",
+      "documents.html",
+      "interviews.html",
+      "gallery.html",
+      "contact.html",
+      "css/style.css",
+      "js/script.js",
+      "images/"
+    ]
+  },
+
+  "design": {
+    "theme": "Historical, Clean, Respectful",
+    "colors": {
+      "primary": "#006A4E",
+      "secondary": "#F42A41",
+      "background": "#F8F9FA",
+      "dark": "#212529",
+      "text": "#444444"
+    },
+    "fonts": {
+      "heading": "Merriweather",
+      "body": "Poppins"
+    }
+  },
+
+  "completed_pages": {
+    "index": {
+      "status": "completed",
+      "sections": [
+        "Responsive Navbar",
+        "Hero Section",
+        "About Archive",
+        "Featured Documents",
+        "Featured Interviews",
+        "Featured Photographs",
+        "Footer"
+      ],
+      "note": "Hero background image is added using HTML <img>, NOT CSS background:url()."
+    },
+
+    "documents": {
+      "status": "completed",
+      "sections": [
+        "Navbar",
+        "Header",
+        "Search Box",
+        "Category Filter",
+        "6 Document Cards",
+        "Bootstrap Modal",
+        "Footer"
+      ],
+      "requirements_completed": [
+        "Historical documents catalogue",
+        "Categorization",
+        "Publication date",
+        "Source",
+        "Description",
+        "Detailed document view"
+      ]
+    }
+  },
+
+  "coding_style": {
+    "html_comments": true,
+    "css_comments": true,
+    "javascript_comments": true,
+    "section_format": {
+      "html": "<!-- ================= Section Start ================= -->",
+      "css": "/* ========================================= */",
+      "javascript": "/*****************************/"
+    }
+  },
+
+  "important_rules": [
+    "Always write beginner-level code.",
+    "Do not use React.",
+    "Do not use Tailwind.",
+    "Use Bootstrap + Raw CSS only.",
+    "Keep HTML, CSS and JS in separate files.",
+    "Keep the code clean and easy to understand.",
+    "Generate complete files.",
+    "Do not skip any section.",
+    "Use Bootstrap Icons when necessary.",
+    "Maintain the same color palette and typography throughout the project.",
+    "Ensure mobile responsiveness."
+  ],
+
+  "remaining_pages": [
+    {
+      "page": "interviews.html",
+      "requirements": [
+        "Interview cards",
+        "Freedom fighter information",
+        "Embedded audio/video",
+        "Biography",
+        "Interview summary",
+        "Modal or details page"
+      ]
+    },
+    {
+      "page": "gallery.html",
+      "requirements": [
+        "Historical photo gallery",
+        "Category filter",
+        "Responsive image grid",
+        "Lightbox",
+        "Photo description"
+      ]
+    },
+    {
+      "page": "contact.html",
+      "requirements": [
+        "Contact form",
+        "Name",
+        "Email",
+        "Subject",
+        "Message",
+        "File upload",
+        "Contact information",
+        "Embedded Google Map",
+        "JavaScript validation"
+      ]
+    }
+  ],
+
+  "future_javascript_features": [
+    "Search documents",
+    "Category filtering",
+    "Gallery filtering",
+    "Lightbox",
+    "Sticky navbar",
+    "Back to top button",
+    "Scroll animation",
+    "Counter animation",
+    "Form validation",
+    "Dark mode (optional)"
+  ],
+
+  "assistant_instruction": "Continue this project from the Interviews page. Generate complete HTML first, then complete CSS, then JavaScript if required. Keep the same design language, folder structure, color palette, typography, and beginner-friendly coding style used in the previous pages."
+}
